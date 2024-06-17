@@ -128,5 +128,133 @@ export const tracks = [
                 year: 2017
             }
         ]
+    },
+    {
+        name: "Jarama",
+        length: "3.8 km",
+        image: "https://r2.nthusiast.es/jarama.webp",
+        description: "El circuito de Jarama es un circuito de carreras situado en la localidad de San Sebastián de los Reyes, en la provincia de Madrid, España.",
+        record: {
+            car: "Hyundai i30 N",
+            driver: "Manuel Lauck",
+            time: "1:30",
+            year: 2023
+        },
+        times: [
+            {
+                car: "Hyundai i30 N",
+                driver: "Manuel Lauck",
+                time: "1:30",
+                year: 2023
+            },
+            {
+                car: "Hyundai i20 N",
+                driver: "Benjamin Leuchter",
+                time: "1:32",
+                year: 2020
+            },
+            {
+                car: "Hyundai i30 N",
+                driver: "Honda",
+                time: "1:29",
+                year: 2017
+            }
+        ]
+    },
+    {
+        name: "Cartagena",
+        length: "3.5 km",
+        image: "https://r2.nthusiast.es/cartagena.webp",
+        description: "El circuito de Cartagena es un circuito de carreras situado en la localidad de Cartagena, en la provincia de Murcia, España.",
+        record: {
+            car: "Hyundai i30 N",
+            driver: "Manuel Lauck",
+            time: "1:25",
+            year: 2023
+        },
+        times: [
+            {
+                car: "Hyundai i30 N",
+                driver: "Manuel Lauck",
+                time: "1:25",
+                year: 2023
+            },
+            {
+                car: "Hyundai i20 N",
+                driver: "Benjamin Leuchter",
+                time: "1:27",
+                year: 2020
+            },
+            {
+                car: "Hyundai i30 N",
+                driver: "Honda",
+                time: "1:24",
+                year: 2017
+            }
+        ]
+    },
+    {
+        name: "Circuit de Montmeló",
+        length: "4.6 km",
+        image: "https://r2.nthusiast.es/barcelona.webp",
+        description: "El circuito de Barcelona-Catalunya es un circuito de carreras situado en la localidad de Montmeló, en la provincia de Barcelona, España.",
+        record: {
+            car: "Hyundai i30 N",
+            driver: "Manuel Lauck",
+            time: "1:45",
+            year: 2023
+        },
+        times: [
+            {
+                car: "Hyundai i30 N",
+                driver: "Manuel Lauck",
+                time: "1:45",
+                year: 2023
+            },
+            {
+                car: "Hyundai i20 N",
+                driver: "Benjamin Leuchter",
+                time: "1:47",
+                year: 2020
+            },
+            {
+                car: "Hyundai i30 N",
+                driver: "Honda",
+                time: "1:44",
+                year: 2017
+            }
+        ]
+    },
+    {
+        name: "Gaudix",
+        length: "3.5 km",
+        image: "https://r2.nthusiast.es/gaudix.webp",
+        description: "El circuito de Gaudix es un circuito de carreras situado en la localidad de Gaudix, en la provincia de Granada, España.",
+        record: {
+            car: "Hyundai i30 N",
+            driver: "Manuel Lauck",
+            time: "1:25",
+            year: 2023
+        },
+        times: [
+            {
+                car: "Hyundai i30 N",
+                driver: "Manuel Lauck",
+                time: "1:25",
+                year: 2023
+            },
+            {
+                car: "Hyundai i20 N",
+                driver: "Benjamin Leuchter",
+                time: "1:27",
+                year: 2020
+            },
+            {
+                car: "Hyundai i30 N",
+                driver: "Honda",
+                time: "1:24",
+                year: 2017
+            }
+        ]
     }
 ]
