@@ -226,10 +226,10 @@ export const tracks = [
         ]
     },
     {
-        name: "Gaudix",
+        name: "Guadix",
         length: "3.5 km",
         image: "https://r2.nthusiast.es/gaudix.webp",
-        description: "El circuito de Gaudix es un circuito de carreras situado en la localidad de Gaudix, en la provincia de Granada, España.",
+        description: "El circuito de Guadix es un circuito de carreras situado en la localidad de Guadix, en la provincia de Granada, España.",
         record: {
             car: "Hyundai i30 N",
             driver: "Manuel Lauck",
