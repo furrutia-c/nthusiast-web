@@ -96,5 +96,37 @@ export const tracks = [
                 year: 2017
             }
         ]
+    },
+    {
+        name: "Andalucía Circuit",
+        length: "4.4 km",
+        image: "https://r2.nthusiast.es/andalucia.webp",
+        description: "El circuito de Andalucía es un circuito de carreras situado en la localidad de Almería, en la provincia de Almería, España.",
+        record: {
+            car: "Hyundai i30 N",
+            driver: "Manuel Lauck",
+            time: "1:40",
+            year: 2023
+        },
+        times: [
+            {
+                car: "Hyundai i30 N",
+                driver: "Manuel Lauck",
+                time: "1:40",
+                year: 2023
+            },
+            {
+                car: "Hyundai i20 N",
+                driver: "Benjamin Leuchter",
+                time: "1:42",
+                year: 2020
+            },
+            {
+                car: "Hyundai i30 N",
+                driver: "Honda",
+                time: "1:39",
+                year: 2017
+            }
+        ]
     }
 ]
