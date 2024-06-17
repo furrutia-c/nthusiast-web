@@ -36,18 +36,32 @@
     </div>
   </div>
 </div>
+<script>
+  // random from 1 to 2
+  const randomImage = Math.floor(Math.random() * 3);
+  const images = [
+    "https://r2.nthusiast.es/i30N.webp",
+    "https://r2.nthusiast.es/i30n2.webp",
+    "https://r2.nthusiast.es/i30n3.webp",
+  ];
+
+  const image = images[randomImage];
+
+  // load image in intro-bg
+  document.querySelector(".intro-bg").style.background = `
+  linear-gradient(
+    180deg,
+    rgba(34, 185, 250, 0.799) 0%,
+    rgba(255, 255, 255, 0.31) 20%,
+    rgba(255, 255, 255, 0.31) 90%,
+    rgb(255, 255, 255) 100%
+  ),
+    url(${image}
+  `;
+</script>
 <style>
   .intro-bg {
-    /** add gradient top to bottom  with opacity*/
-    background: linear-gradient(
-        180deg,
-        rgba(34, 185, 250, 0.799) 0%,
-        rgba(255, 255, 255, 0.31) 20%,
-        rgba(255, 255, 255, 0.31) 70%,
-        rgb(255, 255, 255) 100%
-      ),
-      url("https://r2.nthusiast.es/i30N.webp");
-    background-size: cover;
-    background-position: center;
+    background-size: cover !important;
+    background-position: center !important;
   }
 </style>
