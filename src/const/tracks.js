@@ -64,5 +64,37 @@ export const tracks = [
                 year: 2017
             }
         ]
+    },
+    {
+        name: "Circuit de Castellolí",
+        length: "3.2 km",
+        image: "https://r2.nthusiast.es/castelloli.webp",
+        description: "El circuito de Castellolí es un circuito de carreras situado en la localidad de Castellolí, en la provincia de Barcelona, España.",
+        record: {
+            car: "Hyundai i30 N",
+            driver: "Manuel Lauck",
+            time: "1:20",
+            year: 2023
+        },
+        times: [
+            {
+                car: "Hyundai i30 N",
+                driver: "Manuel Lauck",
+                time: "1:20",
+                year: 2023
+            },
+            {
+                car: "Hyundai i20 N",
+                driver: "Benjamin Leuchter",
+                time: "1:22",
+                year: 2020
+            },
+            {
+                car: "Hyundai i30 N",
+                driver: "Honda",
+                time: "1:19",
+                year: 2017
+            }
+        ]
     }
 ]
