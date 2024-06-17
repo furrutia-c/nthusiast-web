@@ -1,5 +1,5 @@
 ---
-
+import Tracks from "../sections/Tracks.astro";
 ---
 
 <div class="intro-bg pt-14 lg:px-8">
@@ -18,7 +18,7 @@
     </div>
     <div class="text-center">
       <h1
-        class="text-2xl font-bold tracking-tight text-gray-900 sm:text-5xl flex flex-row items-center justify-center"
+        class="text-2xl font-bold font-outfit tracking-tight text-gray-900 sm:text-5xl flex flex-row items-center justify-center"
       >
         <span>Welcome to</span>
         <img
@@ -27,7 +27,7 @@
         />
         <span>community</span>
       </h1>
-      <p class="mt-6 sm:text-lg text-sm leading-8 text-gray-900">
+      <p class="mt-6 sm:text-lg text-sm leading-8 text-gray-900 font-outfit">
         We are a community of Hyundai N Cars enthusiasts. We share our passion
         for the brand and the cars. We organize events, share our experiences
         and help each other with technical issues. Join us and be part of the
@@ -36,6 +36,7 @@
     </div>
   </div>
 </div>
+<Tracks />
 <script>
   // random from 1 to 2
   const randomImage = Math.floor(Math.random() * 3);
