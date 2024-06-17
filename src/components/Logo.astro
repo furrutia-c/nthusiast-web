@@ -1,33 +1,10 @@
 ---
-// Importa el componente Image y la imagen
-import { Image } from "astro:assets";
-import ImageLogo from "../../public/LogoN.png"; // La imagen es 1600x900
+
 ---
 
-<div
-  class="flex flex-row content-center h-screen items-center justify-center px-10"
->
-  <Image src={ImageLogo} class="lg:w-48 w-36" alt="Logo" />
-  <div class="text-black text-6xl content-end oswald-logo">
-    <p>thusiast</p>
-    <span
-      ><p class="text-lg text-white flex-wrap oswald-300">
-        Welcome to our community!
-      </p></span
-    >
-  </div>
-</div>
-
-<style>
-  .oswald-logo {
-    font-family: "Oswald", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  .oswald-300 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-</style>
+<img
+  class="h-8 w-auto"
+  src="https://r2.nthusiast.es/LogoN.png"
+  alt="Nthusiast Logo"
+/>
+<span class="font-bold text-2xl logo">thusiast Club</span>
