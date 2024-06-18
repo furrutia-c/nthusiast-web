@@ -1,5 +1,5 @@
 ---
-import Tracks from "../sections/Tracks.astro";
+import Tracks from "./Tracks.vue";
 ---
 
 <div class="intro-bg pt-14 lg:px-8">
@@ -36,7 +36,7 @@ import Tracks from "../sections/Tracks.astro";
     </div>
   </div>
 </div>
-<Tracks />
+<Tracks client:only />
 <script>
   // random from 1 to 2
   const randomImage = Math.floor(Math.random() * 3);
